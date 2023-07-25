@@ -1,0 +1,92 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+
+#header{
+    background-image: url('../theCoffeeShopProject/images/Coffeehouse+background.jpeg');
+    min-height: 400px;
+
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    flex-grow: 1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    flex-grow: 1;
+    font-size: 50px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400px;
+    transition-duration: .15s;
+}
+
+.box:hover{
+    opacity: 0.8;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    cursor: pointer;
+    transition-duration: .15s;
+}
+
+.order{
+    display: flex;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 50px;
+    flex-grow: 1;
+    font-size: 50px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400px;
+    transition-duration: .15s;
+}
+.order:hover{
+    width: 120px;
+    height: 70px;
+    cursor: pointer;
+    transition-duration: .15s;
+}
+
+.coffee{
+    background-image: url('../theCoffeeShopProject/images/img-locations-background.jpeg');
+}
+
+.smoothie{
+    background-image: url('../theCoffeeShopProject/images/Pretty-in-Pink-Peach-Smoothie-6.jpeg');
+}
+
+.bakery{
+    background-image: url('../theCoffeeShopProject/images/img-donut.jpeg');
+}
